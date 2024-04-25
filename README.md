@@ -2,7 +2,7 @@
 
 [image1]: ./data/dataset-cover.jpg "dataset-cover"
 
-# Project: Honey price prediction using regression methods
+# Honey price prediction using regression methods
 
 ![dataset-cover][image1]
 
