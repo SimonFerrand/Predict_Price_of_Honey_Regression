@@ -1,6 +1,6 @@
 [//]: # (Image References)
 
-[image1]: (data/dataset-cover.jpg) "dataset-cover"
+[image1]: (./data/dataset-cover.jpg) "dataset-cover"
 
 # Project: Honey price prediction using regression methods
 
