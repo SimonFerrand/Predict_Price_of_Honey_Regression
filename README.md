@@ -1,6 +1,6 @@
 [//]: # (Image References)
 
-[image1]: (data/dataset-cover.jpg) "dataset-cover"
+[image1]: (dataset-cover.jpg) "dataset-cover"
 
 # Project: Honey price prediction using regression methods
 
@@ -28,7 +28,7 @@ conda activate Honey
 pip install -r requirements.txt
 
 # Add the environment to Jupyter
-python -m ipykernel install --user --name Honey  --display-name "Python 3.11 (Honey )"
+python -m ipykernel install --user --name Honey  --display-name "Python 3.11 (Honey)"
 ```
 
 ### [Download](https://www.kaggle.com/datasets/stealthtechnologies/predict-purity-and-price-of-honey?resource=download) the dataset
