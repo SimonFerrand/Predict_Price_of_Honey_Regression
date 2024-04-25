@@ -1,6 +1,6 @@
 [//]: # (Image References)
 
-[image1]: (./data/dataset-cover.jpg) "dataset-cover"
+[image1]: (data/dataset-cover.jpg) "dataset-cover"
 
 # Project: Honey price prediction using regression methods
 
@@ -20,25 +20,22 @@ git clone https://github.com/Yoshiokha/Predict_Price_of_Honey_Regression/Project
 # Navigate to the project directory
 cd Project2_Continuous_Control
 
-
-
-
-
 # Create and activate the conda environment
 conda create --name Honey python=3.11
 conda activate Honey
+
+# Update unityagents in requirements.txt and install dependencies
 pip install -r requirements.txt
 
-## Setup Instructions
-Download dataset
-https://www.kaggle.com/datasets/stealthtechnologies/predict-purity-and-price-of-honey?resource=download
+# Add the environment to Jupyter
+python -m ipykernel install --user --name Honey  --display-name "Python 3.11 (Honey )"
+```
 
-
-
-
+### [Download](https://www.kaggle.com/datasets/stealthtechnologies/predict-purity-and-price-of-honey?resource=download) the dataset
 
 
 ## Dataset presentation
+
 CS (Color Score):
 Represents the color score of the honey sample, ranging from 1.0 to 10.0. Lower values indicate a lighter color, while higher values indicate a darker color.
 
